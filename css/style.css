@@ -109,3 +109,139 @@ button {
   color: #6b7280;
   font-size: 16px;
 }
+.pricing {
+  max-width: 1100px;
+  margin: 100px auto;
+}
+
+.pricing h2 {
+  text-align: center;
+  font-size: 58px;
+  color: #162334;
+  margin-bottom: 15px;
+}
+
+.pricing-subtitle {
+  text-align: center;
+  color: #707070;
+  font-size: 18px;
+  margin-bottom: 55px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.price-card {
+  width: 330px;
+  height: 420px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 24px;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.plan {
+  font-size: 11px;
+  font-weight: 600;
+  color: #8d8d8d;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.price-card h3 {
+  font-size: 54px;
+  color: #162334;
+  margin-bottom: 5px;
+}
+
+.price {
+  color: #8d8d8d;
+  font-size: 15px;
+}
+
+.price-card hr {
+  margin: 18px 0;
+  border: none;
+  border-top: 1px solid #ececec;
+}
+
+.price-card ul {
+  list-style: none;
+  flex: 1;
+}
+
+.price-card ul li {
+  font-size: 14px;
+  color: #454545;
+  margin-bottom: 14px;
+  position: relative;
+  padding-left: 14px;
+}
+
+.price-card ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+}
+
+.outline-btn {
+  width: 100%;
+  background: #ffffff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.contact-btn {
+  width: 100%;
+  background: #ffffff;
+  color: #162334;
+  border: 1px solid #162334;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.pro-card {
+  background: #132235;
+  color: #ffffff;
+}
+
+.pro-card h3 {
+  color: #ffffff;
+}
+
+.pro-card .plan {
+  color: #6da8ff;
+}
+
+.pro-card .price {
+  color: #c9d1d9;
+}
+
+.pro-card hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.pro-card ul li {
+  color: #ffffff;
+}
+
+.pro-btn {
+  width: 100%;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
