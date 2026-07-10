@@ -3,20 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
   padding: 20px 80px;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-menu ul {
   display: flex;
   list-style: none;
   gap: 30px;
   color: #575757;
 }
+
 button {
   padding: 12px 24px;
   border: none;
@@ -25,18 +29,23 @@ button {
   color: #ffffff;
   cursor: pointer;
 }
+
 .hero {
   background-image:
     linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
     url("../images/banner.jpg");
+
   height: 820px;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .hero-content {
   color: #ffffff;
   margin-top: 30px;
@@ -61,6 +70,7 @@ button {
   padding: 18px 40px;
   font-size: 18px;
 }
+
 .speakers {
   padding: 80px;
 }
@@ -109,26 +119,31 @@ button {
   color: #6b7280;
   font-size: 16px;
 }
+
 .pricing {
-  max-width: 1100px;
-  margin: 100px auto;
+  padding: 80px;
 }
 
 .pricing h2 {
+  max-width: 1100px;
+  margin: 0 auto 15px;
   text-align: center;
   font-size: 58px;
   color: #162334;
-  margin-bottom: 15px;
 }
 
 .pricing-subtitle {
+  max-width: 1100px;
+  margin: 0 auto 55px;
   text-align: center;
   color: #707070;
   font-size: 18px;
-  margin-bottom: 55px;
 }
 
 .pricing-container {
+  max-width: 1100px;
+  margin: auto;
+
   display: flex;
   justify-content: center;
   gap: 18px;
@@ -244,4 +259,168 @@ button {
   padding: 12px;
   border-radius: 6px;
   font-weight: 600;
+}
+
+.hackathon {
+  padding: 80px;
+  text-align: center;
+}
+
+.hackathon-badge {
+  display: inline-block;
+  background: #162334;
+  color: #e8f0ff;
+  padding: 20px 32px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.hackathon h2 {
+  font-size: 46px;
+  color: #162334;
+  margin-bottom: 15px;
+}
+
+.hackathon-subtitle {
+  max-width: 720px;
+  margin: auto;
+  color: #6b7280;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 55px;
+}
+
+.hackathon-info {
+  max-width: 1100px;
+  margin: 0 auto 50px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.info-box {
+  background: #132235;
+  border-radius: 10px;
+  padding: 28px 20px;
+}
+
+.info-box h4 {
+  color: #60a5fa;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.info-box p {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.hackathon-container {
+  max-width: 1100px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.hackathon-card {
+  background: #ffffff;
+  border: 2px solid #2563eb;
+  border-radius: 10px;
+  padding: 35px;
+  text-align: left;
+}
+
+.hackathon-card h3 {
+  color: #2563eb;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.hackathon-card p {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.hackathon-bottom {
+  max-width: 1100px;
+  margin: 60px auto 0;
+
+  padding: 55px 40px;
+  border-radius: 12px;
+
+  background-image:
+    linear-gradient(rgba(19, 34, 53, 0.9), rgba(19, 34, 53, 0.9)),
+    url("../images/hackathon.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hackathon-bottom h3 {
+  color: #ffffff;
+  font-size: 34px;
+  margin-bottom: 18px;
+}
+
+.hackathon-bottom p {
+  max-width: 650px;
+  margin: auto;
+  color: #d6dde8;
+  line-height: 1.8;
+  font-size: 17px;
+  margin-bottom: 32px;
+}
+
+.hackathon-bottom button {
+  padding: 16px 40px;
+  font-size: 17px;
+}
+
+.footer {
+  background: #132235;
+  padding: 40px 80px 25px;
+}
+
+.footer-container {
+  max-width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left img {
+  width: 120px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-right i {
+  color: #8b96a7;
+  font-size: 22px;
+}
+
+.footer hr {
+  width: 100%;
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.copyright {
+  text-align: center;
+  color: #8b96a7;
+  font-size: 15px;
 }
